@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(33, 155, 204);
+  background-image: url(/SASSCSS/images/bg-pattern-top.svg), url(/SASSCSS/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 120% 170%, -20% -60%;
+}
+
+main .card {
+  height: auto;
+  display: grid;
+  grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+  grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+  text-align: center;
+}
+main .card .card-item__1 {
+  grid-row: 1/5;
+  grid-column: 1/13;
+  background-image: url(/SASSCSS/images/bg-pattern-card.svg);
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+main .card .card-item__2 {
+  grid-row: 5/10;
+  grid-column: 1/13;
+  background: whitesmoke;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+main .card .card-item__2 .num26 {
+  padding-left: 0.5rem;
+}
+main .card .card-item__2 .bold-text {
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .card .card-item__2 .light-text {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.4823529412);
+}
+main .card .card-item__3 {
+  grid-row: 3/7;
+  grid-column: 5/9;
+  background-image: url(/SASSCSS/images/image-victor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0.3rem solid white;
+  border-radius: 50%;
+}
+main .card .card-item__4 {
+  grid-column: span 13;
+  grid-row: span 3;
+  background: whitesmoke;
+  border-top: 1px rgba(0, 0, 0, 0.4823529412) solid;
+  border-radius: 0rem 0rem 1rem 1rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+main .card .card-item__4 .card-item__4__container {
+  display: flex;
+  gap: 0 3rem;
+}
+main .card .card-item__4 .card-item__4__container .bold-text {
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .card .card-item__4 .card-item__4__container .light-text {
+  color: rgba(0, 0, 0, 0.4823529412);
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-position: -80% 150%, 150% -90%;
+  }
+}/*# sourceMappingURL=mainSass.css.map */
