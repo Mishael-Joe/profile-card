@@ -10,7 +10,7 @@ body {
   justify-content: center;
   height: 100vh;
   background: rgb(33, 155, 204);
-  background-image: url(/SASSCSS/images/bg-pattern-top.svg), url(/SASSCSS/images/bg-pattern-bottom.svg);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: 120% 170%, -20% -60%;
 }
@@ -25,7 +25,7 @@ main .card {
 main .card .card-item__1 {
   grid-row: 1/5;
   grid-column: 1/13;
-  background-image: url(/SASSCSS/images/bg-pattern-card.svg);
+  background-image: url(../images/bg-pattern-card.svg);
   border-radius: 1rem 1rem 0rem 0rem;
 }
 main .card .card-item__2 {
@@ -51,7 +51,7 @@ main .card .card-item__2 .light-text {
 main .card .card-item__3 {
   grid-row: 3/7;
   grid-column: 5/9;
-  background-image: url(/SASSCSS/images/image-victor.jpg);
+  background-image: url(../images/image-victor.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border: 0.3rem solid white;
